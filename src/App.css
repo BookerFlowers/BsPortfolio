@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply  p-10 flex justify-center
+  }
+
+
+  .page {
+    @apply w-full
+  }
+
+}

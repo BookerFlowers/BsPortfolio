@@ -17,7 +17,7 @@ const Skills = () => {
 
 
     return (
-        <div className=' bg-black text-blue-300 p-1.5 gap-20'>
+        <div className=' bg-black text-blue-300 p-1 gap-20'>
             <h1 className='flex flex-col items-center justify-center text-9*1 font-extrabold font-sans'>Skill Set:</h1>
 
             <div className='flex flex-row items-center justify-center gap-10'>
@@ -63,14 +63,14 @@ const Skills = () => {
             <div className='flex flex-row items-center justify-center'>
                 {/* link to my primary email text box should be transparent until clicked */}
                 <div className='flex flex-col gap-10'>
-                    <a href='flowersbooker2025@gmail.com' className='hover:text-red-600'
+                    <a href='flowersbooker2025@gmail.com' className='hover:text-green-600'
                         onClick={(e) => {
                             e.preventDefault();
                             setPopupVisible(true);
                         }} > flowersbooker2025@gmail.com</a>
                     <textarea rows='4' cols='30' placeholder='enter your message here' value={message} onChange={(e) => setMessage(e.target.value)} />
-                    <button className='bg-gray-800 rounded-full hover:text-red-600' onClick={handleSendEmail}>Send </button>
-                    <button className='bg-gray-800 rounded-full hover:text-red-600' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
+                    <button className='bg-gray-800 rounded-full hover:text-green-600' onClick={handleSendEmail}>Send </button>
+                    <button className='bg-gray-800 rounded-full hover:text-green-600' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
                     {/* link to call directly to my phone component */}
                     <div className='text-center bg-gray-800 rounded-full'>
                         <CallLink />

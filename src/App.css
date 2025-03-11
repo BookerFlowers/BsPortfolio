@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply  p-10 flex justify-center
+    @apply  p-1 flex justify-center
   }
 
 

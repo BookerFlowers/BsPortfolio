@@ -6,15 +6,15 @@ const Home = () => {
 
     return (
 
-        <div className='flex  items-center justify-center bg-black text-red-500 p-1.5 h-full w-full'>
-
-           
+        <div className='flex items-center justify-center bg-black text-red-500 p-1.5 h-full w-full'>
 
 
-            <div className='flex flex-col  justify-center gap-4 p-1.5 '>
-                
-        
-                    <img className='h-full w-full ' src="src\assets\images\logo2.png" alt="profilePic" />
+
+
+            <div className='flex flex-col  justify-center item-center gap-4 p-1.5 '>
+
+
+                <img className='h-72 w-72 ' src="src\assets\images\logo2.png" alt="profilePic" />
                 <h2 className='text-3xl text-center'>Soft Developer  </h2>
                 <p className='text-center'>Booker is a graduate of Persevere where he earned his full stack certificate on December 13, 2025. He is currently an intern software developer with Banyan Labs. Currently enrolled in Grand Canyon University to take online classes to obtain a bachelors of arts degree in Web Design.  </p>
                 <div className='flex justify-around '>

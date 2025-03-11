@@ -8,9 +8,9 @@ const Certificates = () => {
 
 
     return (
-        <div className='flex flex-col items-center justify-center  bg-black text-blue-300 p-1.5 gap-8 w-fit h-screen'>
+        <div className='flex flex-col items-center justify-center  bg-black text-blue-300  gap-8 w-full h-screen p-1'>
             <div>
-                 <h1 className='sm:text-xl md:text-4x3 lg:text-6x3 xl:text-10x3 2xl:text-12x3 font-extrabold'>Accomplishments</h1> 
+                 <h1 className='font-extrabold'>Accomplishments</h1> 
                  <img className='h-40 w-40' src="src\assets\images\bookerssuccess.png" alt="success" />
 
             </div>

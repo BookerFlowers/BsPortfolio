@@ -11,7 +11,7 @@ const Home = () => {
 
 
 
-            <div className='flex flex-col justify-center item-center gap-4 p-1.5 '>
+            <div className='flex flex-col justify-center item-center gap-4 p-1.5'>
 
                 <div className='flex justify-center'>
                     <img className='h-72 w-72 ' src="src\assets\images\logo2.png" alt="profilePic" />

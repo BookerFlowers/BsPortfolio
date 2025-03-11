@@ -5,7 +5,7 @@ const Projects = () => {
         <div className='flex flex-col items-center justify-center text-white bg-black h-screen w-screen'>
             <h1 className=' font-extrabold pb-20' >Projects Page</h1>
             <div className='flex justify-center flex-col' >
-                <div className='flex flex-row gap-10 p-1'>
+                <div className='flex sm:flex-row gap-10 p-1 flex-col'>
                     <a href="https://github.com/BookerFlowers/Functional-and-Chronological-Resume-Builder" className=' relative' >
                         <h3 className='hover:text-green-600'> Resume Builder</h3>
                         <img src="src\assets\images\resumebuilderone.png" className='w-16 h-16 rounded-full' alt="clock1" /><img src="src\assets\images\resumebuilderthree.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="clock2" />
@@ -22,7 +22,7 @@ const Projects = () => {
 
                     </a>
                 </div>
-                <div className='flex flex-row gap-10 p-1'>
+                <div className='flex sm:flex-row gap-10 p-1 flex-col'>
                     <a href="https://github.com/BookerFlowers/Booker-Cruises" className='relative'>
                         <h3 className='hover:text-green-600'>Booker's Cruise</h3>
                         <img src="src\assets\images\cruise4.png" className='w-16 h-16 rounded-full' alt="cruise1" /><img src="src\assets\images\cruise5.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="cruise2" />
@@ -34,7 +34,7 @@ const Projects = () => {
 
                     </a>
                 </div>
-                <div className='flex flex-row gap-4'>
+                <div className='flex sm:flex-row gap-4 flex-col'>
 
                     <a href="https://github.com/BookerFlowers/rock-paper-scissors-master" className='relative'>
                         <h3 className='hover:text-green-600'>Rock, Paper, Scissors</h3>

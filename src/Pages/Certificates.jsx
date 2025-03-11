@@ -16,20 +16,20 @@ const Certificates = () => {
             </div>
           
 
-            <div className='flex flex-row gap-5 '>
+            <div className='flex sm:flex-row flex-col gap-5 '>
                 <img className='h-40 w-40' src="src\assets\images\codecamp.png" alt="codecamp" />
                
 
                 <img className='h-40 w-40' src="src\assets\images\buildingwithHTML.png" alt="html" />
 
             </div>
-            <div className='flex flex-row gap-5 '>
+            <div className='flex sm:flex-row flex-col gap-5 '>
 
                 <img className='h-40 w-40' src="src\assets\images\javascriptclasses.png" alt="classes" />
               
                 <img className='h-40 w-40' src="src\assets\images\javascriptsecondlanguage.png" alt="secondlanguage" />
             </div>
-            <div className='flex flex-row gap-5 '>
+            <div className='flex sm:flex-row flex-col gap-5 '>
 
                 <img className='h-40 w-40' src="src\assets\images\javascripttricky.png" alt="jstricky" />
                 <img className='h-40 w-40' src="src\assets\images\Screenshot 2025-03-10 114117.png" alt="persevere" />

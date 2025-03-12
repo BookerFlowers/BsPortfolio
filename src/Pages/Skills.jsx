@@ -42,7 +42,7 @@ const Skills = () => {
 
                 </div>
                 <div>
-                    <img className='w-45 animate-bounce' src="src\assets\images\3.png" alt="book" />
+                    <img className='w-45 animate-bounce rounded-full' src="src\assets\images\Gemini_Generated_Image_hnvwp1hnvwp1hnvw.jpg" alt="book" />
 
                 </div>
                 <div className='flex flex-col items-center justify-center gap-6'>

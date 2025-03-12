@@ -14,7 +14,7 @@ const Home = () => {
             <div className='flex flex-col justify-center item-center sm:gap-4 gap-2 p-1.5'>
                 <h1 className='text-5xl text-center'>Developer: Booker T. Flowers</h1>
                 <div className='flex justify-center'>
-                    <img className='h-72 w-72 ' src="src\assets\images\55.jpg" alt="cane-corso" />
+                    <img className='h-72 w-72 ' src="src\assets\images\Gemini_Generated_Image_9804w19804w19804.jpg" alt="" />
                 </div>
 
                 <h2 className='text-3xl text-center'>Junior Software Developer  </h2>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className='flex flex-col items-center justify-center text-white bg-black h-screen sm:w-screen w-full overflow-scroll'>
+        <div className='text-center text-white bg-black h-screen sm:w-screen w-full overflow-scroll'>
             <h1 className=' font-extrabold p-3 sm:text-4xl text-2xl' >Projects Page</h1>
             <div className='flex justify-center flex-col' >
                 <div className='flex sm:flex-row sm:gap-10 gap-4 sm:p-1 p-0.1 flex-col'>

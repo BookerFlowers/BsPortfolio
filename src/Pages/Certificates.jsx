@@ -9,9 +9,9 @@ const Certificates = () => {
 
     return (
         <div className='flex flex-col items-center justify-center  bg-black text-white  sm:gap-8 gap-4 sm:w-screen w-full h-screen overflow-scroll sm:p-1 p-0.1'>
-            <div>
-                 <h1 className='font-extrabold'>Accomplishments</h1> 
-                 <img className='sm:h-40 sm:w-40 h-20 w-20' src="src\assets\images\bookerssuccess.png" alt="success" />
+            <div className='text-center flex flex-col items-center'>
+                 <h1 className='font-extrabold sm:text-4xl text-2xl'>Accomplishments</h1> 
+                 <img className='sm:h-40 sm:w-40 h-20 w-20' src="src\assets\images\55.jpg" alt="cane-corso" />
 
             </div>
           

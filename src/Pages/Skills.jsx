@@ -42,7 +42,7 @@ const Skills = () => {
 
                 </div>
                 <div>
-                    <img className='w-45 animate-bounce rounded-full' src="src\assets\images\Gemini_Generated_Image_hnvwp1hnvwp1hnvw.jpg" alt="book" />
+                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src="src\assets\images\Gemini_Generated_Image_hnvwp1hnvwp1hnvw.jpg" alt="book" />
 
                 </div>
                 <div className='flex flex-col items-center justify-center gap-6'>
@@ -69,10 +69,10 @@ const Skills = () => {
                             setPopupVisible(true);
                         }} > flowersbooker2025@gmail.com</a>
                     <textarea rows='4' cols='30' placeholder='enter your message here' value={message} onChange={(e) => setMessage(e.target.value)} />
-                    <button className='bg-gray-800 rounded-full hover:text-green-600' onClick={handleSendEmail}>Send </button>
-                    <button className='bg-gray-800 rounded-full hover:text-green-600' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
+                    <button className='bg-gray-800 rounded-full hover:text-green-600 border-4 border-purple-800' onClick={handleSendEmail}>Send </button>
+                    <button className='bg-gray-800 rounded-full hover:text-green-600 border-4 border-purple-800' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
                     {/* link to call directly to my phone component */}
-                    <div className='text-center bg-gray-800 rounded-full'>
+                    <div className='text-center bg-gray-800 rounded-full border-4 border-purple-800'>
                         <CallLink />
                     </div>
                 </div>

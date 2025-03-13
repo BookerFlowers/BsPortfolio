@@ -55,6 +55,9 @@ const Projects = () => {
 
 
             </div>
+            <div className='flex justify-center content-center m-4'>
+                <img className='h-28 w-36 border-4 border-purple-800 rounded-full ' src="src\assets\images\Gemini_Generated_Image_7qmmh57qmmh57qmm.jpg" alt="walk and work" />
+            </div>
 
         </div>
     );

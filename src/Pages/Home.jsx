@@ -16,7 +16,7 @@ bg-purple-800 text-white p-1 h-screen w-full'>
             <div className='flex flex-col justify-center item-center sm:gap-4 gap-2 p-1.5'>
                 <h1 className='text-5xl text-center'>Developer: Booker T. Flowers</h1>
                 <div className='flex justify-center'>
-                    <img className='w-45 animate-spin rounded-full border-4 border-purple-800' src="src\assets\images\95248027-compass-rose-for-marine-or-nautical-navigation-on-a-white-background.jpg" alt="" />
+                    <img className='w-45 animate-spin rounded-full border-4 border-purple-800' src="src\Assets\images\95248027-compass-rose-for-marine-or-nautical-navigation-on-a-white-background.jpg" alt="" />
                 </div>
 
                 <h2 className='text-3xl text-center'>Software Developer  </h2>

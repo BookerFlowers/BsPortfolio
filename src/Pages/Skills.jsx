@@ -78,8 +78,8 @@ bg-purple-800 text-white p-1 gap-20 w-full h-screen overflow-scroll'>
                         <CallLink />
                     </div>
                     <div className='flex justify-around '>
-                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://www.linkedin.com/feed/'}><img src="src\assets\images\LinkedInlink.png" alt="linkedIn" /></button >
-                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://github.com/BookerFlowers'}><img src="src\assets\images\GitHublink.png" alt="GitHub" /></button>
+                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://www.linkedin.com/feed/'}><img src="src\Assets\images\LinkedInlink.png" alt="linkedIn" /></button >
+                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://github.com/BookerFlowers'}><img src="src\Assets\images\GitHublink.png" alt="GitHub" /></button>
                     </div>
                 </div>
 

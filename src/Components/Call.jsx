@@ -5,7 +5,7 @@ function CallLink() {
 
     return (
         <div>
-            <a href="tel:14485006239" className="hover:text-green-600" onClick={CallLink}>Call Me: 448-500-6239</a>
+            <a href="tel:14485006239" className="hover:text-red-600" onClick={CallLink}>Call Me: 448-500-6239</a>
 
         </div>
     );

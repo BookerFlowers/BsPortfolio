@@ -2,7 +2,9 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className='text-center text-white bg-black h-screen sm:w-screen w-full overflow-scroll'>
+        <div className='text-center text-white bg-gradient-to-bl 	
+bg-gray-600 	
+bg-purple-800 h-screen sm:w-screen w-full overflow-scroll'>
             <h1 className=' font-extrabold p-3 sm:text-4xl text-2xl' >Projects Page</h1>
             <div className='flex justify-center flex-col items-center' >
                 <div className='flex sm:flex-row sm:gap-10 gap-4 sm:p-1 p-0.1 flex-col'>
@@ -55,11 +57,15 @@ const Projects = () => {
 
 
             </div>
-            <div className='flex justify-center content-center m-4'>
-                <img className='h-28 w-36 border-4 border-purple-800 rounded-full ' src="src\assets\images\Gemini_Generated_Image_7qmmh57qmmh57qmm.jpg" alt="walk and work" />
+            <div className='flex justify-center content-center m-28'>
+                <img className='h-36 w-40 border-4 border-purple-800 rounded-full animate-bounce' src="src\assets\images\3.png" alt="walk and work" />
             </div>
+        
+
 
         </div>
+
+
     );
 
 };

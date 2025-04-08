@@ -17,7 +17,9 @@ const Skills = () => {
 
 
     return (
-        <div className=' bg-black text-white p-1 gap-20 w-full h-screen overflow-scroll'>
+        <div className=' bg-gradient-to-bl 	
+bg-gray-600 	
+bg-purple-800 text-white p-1 gap-20 w-full h-screen overflow-scroll'>
             <h1 className='flex flex-row items-center justify-center sm:text-4x1 text-2xl font-extrabold font-sans'>Skill Set:</h1>
 
             <div className='flex sm:flex-row flex-col items-center justify-center gap-10'>
@@ -42,7 +44,7 @@ const Skills = () => {
 
                 </div>
                 <div>
-                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src="src\assets\images\Gemini_Generated_Image_hnvwp1hnvwp1hnvw.jpg" alt="book" />
+                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src="src\assets\images\compass-maritime.jpg" alt="book" />
 
                 </div>
                 <div className='flex flex-col items-center justify-center gap-6'>
@@ -69,11 +71,15 @@ const Skills = () => {
                             setPopupVisible(true);
                         }} > flowersbooker2025@gmail.com</a>
                     <textarea rows='4' cols='30' placeholder='enter your message here' value={message} onChange={(e) => setMessage(e.target.value)} />
-                    <button className='bg-gray-800 rounded-full hover:text-green-600 border-4 border-purple-800' onClick={handleSendEmail}>Send </button>
-                    <button className='bg-gray-800 rounded-full hover:text-green-600 border-4 border-purple-800' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
+                    <button className='bg-blue-400 rounded-full hover:text-red-600 border-4 border-purple-800' onClick={handleSendEmail}>Send </button>
+                    <button className='bg-blue-400 rounded-full hover:text-red-600 border-4 border-purple-800' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
                     {/* link to call directly to my phone component */}
-                    <div className='text-center bg-gray-800 rounded-full border-4 border-purple-800'>
+                    <div className='text-center bg-blue-400 rounded-full border-4 border-purple-800'>
                         <CallLink />
+                    </div>
+                    <div className='flex justify-around '>
+                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://www.linkedin.com/feed/'}><img src="src\assets\images\LinkedInlink.png" alt="linkedIn" /></button >
+                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://github.com/BookerFlowers'}><img src="src\assets\images\GitHublink.png" alt="GitHub" /></button>
                     </div>
                 </div>
 

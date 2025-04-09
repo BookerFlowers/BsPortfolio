@@ -44,7 +44,7 @@ bg-purple-800 text-white p-1 gap-20 w-full h-screen overflow-scroll'>
 
                 </div>
                 <div>
-                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src="src\assets\images\compass-maritime.jpg" alt="book" />
+                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src="C:\Users\flowe\BsPortfolio\src\Assets\images\compass-maritime.jpg" alt="book" />
 
                 </div>
                 <div className='flex flex-col items-center justify-center gap-6'>

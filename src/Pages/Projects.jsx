@@ -10,29 +10,29 @@ bg-purple-800 h-screen sm:w-screen w-full overflow-scroll'>
                 <div className='flex sm:flex-row sm:gap-10 gap-4 sm:p-1 p-0.1 flex-col'>
                     <a href="https://github.com/BookerFlowers/Functional-and-Chronological-Resume-Builder" className=' relative' >
                         <h3 className='hover:text-green-600'> Resume Builder</h3>
-                        <img src="src\Assets\images\resumebuilderone.png" className='w-16 h-16 rounded-full' alt="clock1" /><img src="src\Assets\images\resumebuilderthree.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="clock2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\3.png" className='w-16 h-16 rounded-full' alt="clock1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\digitalclock2.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="clock2" />
 
                     </a>
                     <a href="https://github.com/BookerFlowers/1st-ToDo-Drag-Drop" className='relative'>
                         <h3 className='hover:text-green-600'>ToDo App</h3>
-                        <img src="src\Assets\images\firstto-do-apptwo.png" className='w-16 h-16 rounded-full' alt="todo1" /><img src="src\Assets\images\firstto-do0app.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="todo2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\firstto-do-apptwo.png" className='w-16 h-16 rounded-full' alt="todo1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\firstto-do0app.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="todo2" />
 
                     </a>
                     <a href="https://github.com/BookerFlowers/College-Football-Cards" className='relative'>
                         <h3 className='hover:text-green-600'>College Football Cards</h3>
-                        <img src="src\Assets\images\pickacardgame.png" className='w-16 h-16 rounded-full' alt="pc1" /><img src="src\Assets\images\pickacardgame.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="pc2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\pickacardgame.png" className='w-16 h-16 rounded-full' alt="pc1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\pickacardgame2.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="pc2" />
 
                     </a>
                 </div>
                 <div className='flex sm:flex-row gap-10 p-1 flex-col'>
                     <a href="https://github.com/BookerFlowers/Booker-Cruises" className='relative'>
                         <h3 className='hover:text-green-600'>Booker's Cruise</h3>
-                        <img src="src\Assets\images\cruise4.png" className='w-16 h-16 rounded-full' alt="cruise1" /><img src="src\Assets\images\cruise5.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="cruise2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\cruise4.png" className='w-16 h-16 rounded-full' alt="cruise1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\cruise5.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="cruise2" />
 
                     </a>
                     <a href="https://github.com/BookerFlowers/BONES-and-Manners-Adoption" className='relative'>
                         <h3 className='hover:text-green-600'>Bone's & Manners</h3>
-                        <img src="src\Assets\images\bonesandmannersfive.png" className='w-16 h-16 rounded-full' alt="bm1" /><img src="src\Assets\images\Bonesandmannersone.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="bm2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\bonesandmannersfive.png" className='w-16 h-16 rounded-full' alt="bm1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\Bonesandmannersone.png" className='w-16 h-16 top-9 left-9 rounded-full absolute' alt="bm2" />
 
                     </a>
                 </div>
@@ -40,25 +40,25 @@ bg-purple-800 h-screen sm:w-screen w-full overflow-scroll'>
 
                     <a href="https://github.com/BookerFlowers/rock-paper-scissors-master" className='relative'>
                         <h3 className='hover:text-green-600'>Rock, Paper, Scissors</h3>
-                        <img src="src\Assets\images\r-p-s-gamefive.png" className='w-16 h-16 rounded-full' alt="rps1" /><img src="src\Assets\images\r-p-s-gamefour.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="rps2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\r-p-s-gamefive.png" className='w-16 h-16 rounded-full' alt="rps1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\r-p-s-gamefour.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="rps2" />
 
                     </a>
                     <a href="https://github.com/BookerFlowers/Adventure-Text-Node-Game" className='relative'>
                         <h3 className='hover:text-green-600'>Adventure Game</h3>
-                        <img src="src\Assets\images\adventuregamefive.png" className='w-16 h-16 rounded-full' alt="tn1" /><img src="src\Assets\images\rpg-dragonrepeller2.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="tn2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\rpg-dragonrepeller2.png" className='w-16 h-16 rounded-full' alt="tn1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\adventuregamefive.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="tn2" />
 
                     </a>
 
                     <a href="https://github.com/BookerFlowers/Bookers-Super-Store" className='relative'>
                         <h3 className='hover:text-green-600'>Super Store</h3>
-                        <img src="src\Assets\images\superstoreone.png" className='w-16 h-16 rounded-full' alt="store1" /><img src="src\Assets\images\superstoreshopping.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="store2" />
+                        <img src="C:\Users\flowe\BsPortfolio\src\Assets\images\superstoreone.png" className='w-16 h-16 rounded-full' alt="store1" /><img src="C:\Users\flowe\BsPortfolio\src\Assets\images\superstoreshopping.png" className='w-16 h-16 top-9 left-9  rounded-full absolute' alt="store2" />
                     </a>
                 </div>
 
 
             </div>
             <div className='flex justify-center content-center m-28'>
-                <img className='h-36 w-40 border-4 border-purple-800 rounded-full animate-bounce' src="src\Assets\images\3.png" alt="walk and work" />
+                <img className='h-36 w-40 border-4 border-purple-800 rounded-full animate-bounce' src="C:\Users\flowe\BsPortfolio\src\Assets\3.png" alt="Dev Life" />
             </div>
         
 

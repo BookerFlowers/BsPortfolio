@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import CallLink from '../Components/Call';
+import bounce from '../../public/assets/images/compass-maritime.jpg';
+import linkedin from '../../public/assets/images/LinkedInlink.png';
+import github from '../../public/assets/images/GitHublink.png';
+
 
 
 const Skills = () => {
@@ -44,7 +48,7 @@ bg-purple-800 text-white p-1 gap-20 w-full h-screen overflow-scroll'>
 
                 </div>
                 <div>
-                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src="C:\Users\flowe\BsPortfolio\src\Assets\images\compass-maritime.jpg" alt="book" />
+                    <img className='w-45 animate-bounce rounded-full border-4 border-purple-800' src={bounce} alt="book" />
 
                 </div>
                 <div className='flex flex-col items-center justify-center gap-6'>
@@ -78,8 +82,8 @@ bg-purple-800 text-white p-1 gap-20 w-full h-screen overflow-scroll'>
                         <CallLink />
                     </div>
                     <div className='flex justify-around '>
-                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://www.linkedin.com/feed/'}><img src="src\Assets\images\LinkedInlink.png" alt="linkedIn" /></button >
-                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://github.com/BookerFlowers'}><img src="src\Assets\images\GitHublink.png" alt="GitHub" /></button>
+                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://www.linkedin.com/feed/'}><img src={linkedin} alt="linkedIn" /></button >
+                        <button className='transition-scale-1.2 transition-colors hover:bg-red-500 p-0.5 h-0.125' onClick={() => window.location.href = 'https://github.com/BookerFlowers'}><img src={github} alt="GitHub" /></button>
                     </div>
                 </div>
 

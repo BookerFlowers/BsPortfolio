@@ -23,7 +23,7 @@ const Skills = () => {
     return (
         <div className=' bg-gradient-to-bl 	
 bg-gray-600 	
-bg-purple-800 text-white p-1 gap-20 w-full h-screen overflow-scroll'>
+bg-purple-800 text-white p-1 gap-20 w-screen h-screen overflow-scroll'>
             <h1 className='flex flex-row items-center justify-center sm:text-4x1 text-2xl font-extrabold font-sans'>Skill Set:</h1>
 
             <div className='flex sm:flex-row flex-col items-center justify-center gap-10'>

@@ -5,7 +5,7 @@ import relogo from '../../public/assets/react.svg';
 function RootLayout() {
     return (
         <div className='root-layout'>
-            <header className='resize'> 
+            <header className='resize'>
                 <nav className='flex flex-row flex-col justify-center sm:flex-row text-red-800  sm:items-center '>
                     <span className='flex items-center justify-center gap-10 flex-col sm:flex-row p4'>
                         <img className='w-8 font-extrabold rounded-full animate-spin' src={relogo} alt='logo' />
